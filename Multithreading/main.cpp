@@ -79,7 +79,6 @@ void Print4(char ch) {
 	std::cout << "Function Print4, thread_ID: " << std::this_thread::get_id() << '\n';
 	std::cout << std::endl;
 	ugl.unlock();
-	
 }
 
 // for using functions and anonymous functions in thread
